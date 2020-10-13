@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "b394c063-5b86-4b24-abb5-0f606bc77c35",
+		"name": "SpringBootInitialDemo",
+		"description": "Primer exercici d'Spring",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "SpringBootInitialDemo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.eu/rest/v2/lang/es",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"eu"
+					],
+					"path": [
+						"rest",
+						"v2",
+						"lang",
+						"es"
+					]
+				},
+				"description": "Primer exercici Spring"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
